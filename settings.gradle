@@ -1,0 +1,5 @@
+rootProject.name = 'ChallengeV2'
+gradle.rootProject {
+    version = '1.0'
+    group = 'com.cybergrid.challenge.v2'
+}

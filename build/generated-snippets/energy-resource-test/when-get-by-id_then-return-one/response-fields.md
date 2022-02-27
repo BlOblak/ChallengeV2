@@ -1,0 +1,7 @@
+Path | Type | Description
+---- | ---- | -----------
+`id` | `Number` | Id of the measurement
+`timePoint` | `String` | Date and time of measurement
+`assetId` | `String` | Id of the measurement asset
+`activePower` | `Number` | Power measured
+`voltage` | `Number` | Voltage measured

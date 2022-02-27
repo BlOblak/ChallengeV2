@@ -1,0 +1,15 @@
+[source,http,options="nowrap"]
+----
+POST /public/measurement HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Content-Length: 165
+Host: localhost:8080
+
+{
+  "id" : 0,
+  "timePoint" : "2022-02-27T12:34:02.818+00:00",
+  "assetId" : "6a26ceb2-368e-4ae3-9904-3d1df3602447",
+  "activePower" : 100,
+  "voltage" : 230
+}
+----

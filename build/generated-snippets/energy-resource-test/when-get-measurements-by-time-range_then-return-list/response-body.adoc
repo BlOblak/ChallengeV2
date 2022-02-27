@@ -1,0 +1,19 @@
+[source,options="nowrap"]
+----
+{
+  "status" : 200,
+  "data" : [ {
+    "id" : 1,
+    "timePoint" : "2022-02-27T12:34:07.775+00:00",
+    "assetId" : "0260d167-b518-4716-be0e-431bbe1ac3f4",
+    "activePower" : 100,
+    "voltage" : 230
+  }, {
+    "id" : 1,
+    "timePoint" : "2022-02-27T12:34:12.775+00:00",
+    "assetId" : "d2842e2d-9271-451b-8079-66e56661c538",
+    "activePower" : 100,
+    "voltage" : 230
+  } ]
+}
+----

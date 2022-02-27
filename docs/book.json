@@ -1,0 +1,4 @@
+{
+  "title": "Challeng v2 module",
+  "plugins": ["uml", "include"]
+}

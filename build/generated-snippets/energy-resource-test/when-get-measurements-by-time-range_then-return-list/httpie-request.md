@@ -1,0 +1,7 @@
+```bash
+$ echo '{
+  "from" : "2022-02-27T12:35:03.436641500Z",
+  "to" : "2022-02-27T12:35:12.436641500Z"
+}' | http POST 'https://api-host/public/measurement/byRange' \
+    'Content-Type:application/json'
+```

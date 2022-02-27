@@ -1,0 +1,8 @@
+Path | Type | Description
+---- | ---- | -----------
+`data[].id` | `Number` | Id of the measurement
+`data[].timePoint` | `String` | Date and time of measurement
+`data[].assetId` | `String` | Id of the measurement asset
+`data[].activePower` | `Number` | Power measured
+`data[].voltage` | `Number` | Voltage measured
+`status` | `Number` | Http status code

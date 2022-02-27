@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/public/measurement/byRange' -i -X POST \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -d '{
+  "from" : "2022-02-27T12:34:05.775965200Z",
+  "to" : "2022-02-27T12:34:14.775965200Z"
+}'
+----

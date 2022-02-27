@@ -1,0 +1,14 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 165
+
+{
+  "id" : 1,
+  "timePoint" : "2022-02-27T12:34:02.657+00:00",
+  "assetId" : "fd05d824-85d3-4947-b209-c72cac830ca7",
+  "activePower" : 100,
+  "voltage" : 230
+}
+----

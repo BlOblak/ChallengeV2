@@ -1,0 +1,10 @@
+[source,options="nowrap"]
+----
+{
+  "id" : 1,
+  "timePoint" : "2022-02-27T12:34:02.818+00:00",
+  "assetId" : "2a539398-37c6-447a-a517-d36756ad44f3",
+  "activePower" : 100,
+  "voltage" : 230
+}
+----

@@ -1,0 +1,41 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # Database
+  data:
+    mongodb:
+      uuid-representation: standard
+      uri: mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    mongo:
+      repositories:
+        enabled: true
+
+  # Messaging
+  rabbitmq:
+    host: ${RABBITMQ_HOST}
+    port: ${RABBITMQ_PORT}
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASSWORD}
+    virtual-host: ${RABBITMQ_VIRTUAL_HOST}
+    listener:
+      simple:
+        prefetch: ${RABBITMQ_LISTENER_PREFETCH:25}
+        concurrency: ${RABBITMQ_CONSUMERS_PER_QUEUE:5}
+  # Caching
+  cache:
+    redis:
+      time-to-live: ${REDIS_TTL}
+    cache-names: ${REDIS_CACHE_NAMES}
+  redis:
+    enabled: true
+    sentinel:
+      nodes: ${SENTINEL_NODES}
+      master: ${REDIS_CLUSTER}
+    password: ${REDIS_PASSWORD}
+    timeout: ${REDIS_TIMEOUT}
+    lettuce:
+      shutdown-timeout: ${REDIS_SHUTDOWN_TIMEOUT}
+
+  application:
+    name: com-challenge
