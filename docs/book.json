@@ -1,4 +1,8 @@
 {
   "title": "Challeng v2 module",
-  "plugins": ["uml", "include"]
+  "plugins": ["uml", "include"],
+  "pdf": {
+    "paperSize": "a3",
+    "fontSize": 11
+  }
 }
