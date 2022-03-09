@@ -4,8 +4,8 @@
   "queue" : "challenge.v2.measurement.insert",
   "body" : {
     "id" : 1,
-    "timePoint" : 1645965297536,
-    "assetId" : "f26134db-2e4a-42e5-9816-6f7e912c4954",
+    "timePoint" : 1645989943359,
+    "assetId" : "819902e2-bd41-4377-8878-ce23e11ea075",
     "activePower" : 100,
     "voltage" : 230
   },

@@ -76,9 +76,9 @@ Other modules have the option to retrieve latest measurement.
 #### Response
 !INCLUDE "../build/generated-snippets/energy-resource-test/when-get-measurements-by-time-range_then-return-list/http-response.md"
 
-## Insure Listener
+## Asset Listener
 
-## Insurance document created
+## New asset measurement
 
 A message is received when energy asset sends a message with measurement data as content.
 After receiving and deserializing the message content into Java Object it inserts the measurement in the database.

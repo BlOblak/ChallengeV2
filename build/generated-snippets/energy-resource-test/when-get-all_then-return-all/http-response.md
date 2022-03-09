@@ -7,20 +7,20 @@ Content-Length: 661
   "status" : 200,
   "data" : [ {
     "id" : 1,
-    "timePoint" : "2022-02-27T12:35:00.505+00:00",
-    "assetId" : "5dee74e0-5eed-4e05-ae7e-e98b5c564528",
+    "timePoint" : "2022-02-27T19:25:46.775+00:00",
+    "assetId" : "20ab4bb4-cc68-48ba-9ef3-10ecdd54a369",
     "activePower" : 100,
     "voltage" : 230
   }, {
     "id" : 1,
-    "timePoint" : "2022-02-27T12:35:05.505+00:00",
-    "assetId" : "72157e60-e0fb-425e-a783-781fc8ac1dfb",
+    "timePoint" : "2022-02-27T19:25:51.775+00:00",
+    "assetId" : "a9862f78-52ed-4cba-870e-27b1c1e165b6",
     "activePower" : 100,
     "voltage" : 230
   }, {
     "id" : 1,
-    "timePoint" : "2022-02-27T12:35:10.505+00:00",
-    "assetId" : "ecc9848f-f4c1-4d0f-a136-8aea909f2e53",
+    "timePoint" : "2022-02-27T19:25:56.775+00:00",
+    "assetId" : "d673425a-73d4-4405-923d-58ff73a30a90",
     "activePower" : 100,
     "voltage" : 230
   } ],
